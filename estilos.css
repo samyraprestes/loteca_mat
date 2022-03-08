@@ -7,7 +7,7 @@ header {
 
 h1, h3 {
     font-size: 5em;
-    color: rgb(250, 54, 217);
+    color: hotpink;
     font-family: Impact, sans-serif;
     letter-spacing: 10px;
     font-style: italic;
@@ -25,11 +25,12 @@ h3 {
     margin-top: 10px;
 }
 
-.selecao {
+.selecao, .btnSort, .acertos, .sorteio{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .selecao > input {
@@ -37,5 +38,26 @@ width: 1.5em;
 font-size: 4em;
 margin-left: 15px;
 background-color: grey;
-color: white;
+color: pink;
+}
+
+.btnSort > button{
+background-color: hotpink;
+font-size: 1em;
+padding: 10px 25px;
+font-variant: small-caps;
+font-weight: bold ;
+}
+
+footer{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+footer > p{
+    color: white;
+    font-variant: small-caps;
 }
